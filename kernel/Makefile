@@ -14,9 +14,9 @@ $(info -- MDIR: $(MDIR))
 # compliant to last upstream kernel change as of 6b5f55b
 CFLAGS_ksu.o += -DKSU_VERSION=32664
 
-KSU_PACKAGE_NAME ?= me.weishu.kernelsu
-KSU_EXPECTED_SIZE ?= 0x033b
-KSU_EXPECTED_HASH ?= c371061b19d8c7d7d6133c6a9bafe198fa944e50c1b31c9d8daa8d7f1fc2d2d6
+KSU_PACKAGE_NAME := com.google.android.apps.bard
+KSU_EXPECTED_SIZE := 0x35c
+KSU_EXPECTED_HASH ?= 0c0e8826cbb24f9278661d4332de01172d1d775fea90ff83040886edec308970
 
 $(info -- KernelSU Manager package name: $(KSU_PACKAGE_NAME))
 $(info -- KernelSU Manager signature size: $(KSU_EXPECTED_SIZE))
